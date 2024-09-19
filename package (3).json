@@ -1,12 +1,12 @@
 {
-  "name": "QUEEN-KYLIE-MD",
+  "name": "DASSA-MD",
   "version": "1.5.0",
-  "description": "A WhatsApp Bot Created By Sahas Tech",
+  "description": "A WhatsApp Bot Created By Loku white devil",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-KYLIE-MD",
-    "stop": "pm2 stop QUEEN-KYLIE-MD",
-    "restart": "pm2 restart QUEEN-KYLIE-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DASSA-MD",
+    "stop": "pm2 stop DASSA-MD",
+    "restart": "pm2 restart DASSA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
