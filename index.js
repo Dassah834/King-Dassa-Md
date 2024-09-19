@@ -220,4 +220,4 @@ res.send("hey, BOT started✅");
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
-}, 4000);  
+}, 3000);  
