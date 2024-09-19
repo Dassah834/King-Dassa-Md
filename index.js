@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94718913389']
+const ownerNumber = ['94776005813']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -69,26 +69,26 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `🚀 *_QUEEN-KYLIE-MD Connected Successfully!_* ✅ 
+let up = `🚀 *_DASSA-MD Connected Successfully!_* ✅ 
 
---- *🧚‍♀️🎉 _Welcome to QUEEN-KYLIE-MD!_* 🎉🧚‍♀️ 
+--- *🧚‍♀️🎉 _Full Base & Created By WHITE-DEVIL | Owner By Dassa!_* 🎉🧚‍♀️ 
 
 *🔹 PREFIX:* ${prefix}
 
 *🔹 OWNER:* ${ownerNumber}
 
 
-_Thank you for using_ *🧚‍♀️QUEEN-KYLIE-MD💗.*
+_Thank you for using_ *🧚‍♀️DASSA-MD💗.*
 _We're here to make your experience enjoyable and seamless._
 _If you need any help or have questions, don't hesitate to ask._ 🌝💗
 
-*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaiTjMlK5cDLek3bB533
+*🖇️Join Bot WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VaivwGS96H4baEiYFE1s
 
-*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@Sahas_Tech
+*🖇️Subscribe My Youtube Channel✓💗 - :* https://www.youtube.com/@devil-programer99 
 
 _*🧚‍♀️Enjoy your time with us!😊*_
 
-*©Qᴜᴇᴇɴ ᴋʏʟɪᴇ-ᴍᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜッ* `;
+*Thanks...💗*`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/dbvfMrN/IMG-20240913-WA0043.jpg` }, caption: up })
 
@@ -215,7 +215,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, QUEEN-KYLIE-MD started✅");
+res.send("hey, BOT started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
